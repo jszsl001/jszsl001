@@ -1,0 +1,555 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Jszsl's Blog</title><meta name="author" content="jszsl"><meta name="copyright" content="jszsl"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Jszsl&#39;s Blog">
+<meta property="og:url" content="https://www.jszsl.top/page/3/index.html">
+<meta property="og:site_name" content="Jszsl&#39;s Blog">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="jszsl">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.jszsl.top/page/3/index.html"><link rel="preconnect" href="//cdnjs.cloudflare.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.33/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdnjs.cloudflare.com/ajax/libs/egjs-infinitegrid/4.11.1/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Jszsl\'s Blog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-10-11 04:17:53'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">98</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/blog/"><i class="fa-fw fas fa-archive"></i><span> Blog</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/"><i class="fa-fw fas fa-archive"></i><span> 每日热搜</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 网址导航</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Jszsl's Blog"><span class="site-name">Jszsl's Blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/blog/"><i class="fa-fw fas fa-archive"></i><span> Blog</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/"><i class="fa-fw fas fa-archive"></i><span> 每日热搜</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 网址导航</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hot-search-2024-09-21.html" title="2024-09-21热搜汇总">2024-09-21热搜汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-09-20T16:00:00.000Z" title="发表于 2024-09-21 00:00:00">2024-09-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/">每日热搜汇总</a></span></div><div class="content">微博
+推动农业增效益农民增收入农村增活力
+赵丽颖飞天奖视后
+85花格局大变
+南开两任校长跨越105年的相遇
+咋整呢医生
+刘琳好可惜
+25岁72岁62岁三人CT片几乎一样
+赵丽颖哭了
+第十三个月亮是谁
+24岁物理学硕士拟获录用中学勤杂工
+90后出任兰溪市副市长
+潘展乐陈梦奥运会后再同框
+任嘉伦对徐正溪说你在我心里很重要
+雷佳音飞天奖视帝
+殷桃 没提名
+男孩放学路遇康辉武大靖整激动了
+李庚希提名视后
+驻日美军违规驾驶撞死1名日本人
+管培生因未参加公司跑步活动被辞退
+王楚钦给自己画肖像
+男子买星巴克月饼券无法提货
+WBG15淘汰吃鸡
+女子美甲后指甲变绿全甲被拔除
+宋祖儿去了周雨彤生日会
+王俊凯晒长寿面
+胡歌陪跑
+视后视帝都没准备获奖感言
+1岁男童腹中竟有个小宝宝
+张碧晨回应演唱会嘉宾争议
+飞天视后竞争太激烈了
+撤回一个刘浩存
+网红杯鼻祖宣布破产了
+为什么秋天的蚊子咬人更狠
+风吹半夏
+韩安冉回应亲生妈妈当小三
+黄晓明 叶珂
+6件事坚持越久意义越大
+3岁幼儿园小朋友能有多自律
+易烊千玺在评论区为王俊凯庆生
+朴春瘦了好多
+WTT中国大满贯参赛全阵容
+姑娘奶茶只喝三分甜牙齿严重酸蚀
+时空中的绘旅人  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hot-search-2024-09-20.html" title="2024-09-20热搜汇总">2024-09-20热搜汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-09-19T16:00:00.000Z" title="发表于 2024-09-20 00:00:00">2024-09-20</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/">每日热搜汇总</a></span></div><div class="content">微博
+庆祝人民政协成立75周年大会
+女子离婚后中500万被诉前夫获200万
+陈乔恩Alan婚礼嘉宾名单
+北京文化论坛文艺晚会
+微信好友添加时间
+黎巴嫩人害怕爆炸不敢用手机
+梅姨案最后1个孩子家长重新采血
+晒晒饭桌上的初秋味道
+男主写死了
+田曦薇时装周造型
+我赴黎维和部队营区周边发生航弹爆炸
+上海确认出现短时龙卷风
+美14岁少女弑母后设圈套枪击继父
+吴倩回应眼里没光了
+泰州地震
+山青传
+胶布封嘴已经突破惩戒学生的边界
+喻言被伯远淘汰
+极氪7X无图NZP提前公测
+全红婵归队
+中日共识与日本男童遇袭无关
+肖战出发澳门
+胡明轩绝杀
+银行工作人员也开始街头发传单了
+安陵容当时吃了最少30粒苦杏仁
+甜馨走秀
+天秤座生日快乐
+黄晓明官宣最大的受害者出现了
+郑州8级以上雷暴大风
+肖战 好听
+因室友烧伤男生父母5次割皮为其植皮
+北京晚霞
+黄晓明黄子韬 青岛特产黄氏霸总
+D级车在北京胡同横着走
+何猷君送给自己的GT
+广东最低气温将降至23度
+郑北向姜小海开枪
+宝马因销量重返价格战
+小英老公曾称干活都是他去做
+考研预报名推迟
+白鹿玫瑰烟熏妆
+赵丽颖 飞天奖
+范思哲大秀
+2元秒杀6卷纸到货没有巴掌大
+安徽亳州 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hot-search-2024-09-19.html" title="2024-09-19热搜汇总">2024-09-19热搜汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-09-18T16:00:00.000Z" title="发表于 2024-09-19 00:00:00">2024-09-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/">每日热搜汇总</a></span></div><div class="content">微博
+中华民族共同体意识是民族团结之本
+微信实况
+民政局回应小英送养孩子传闻
+把青春华章写在祖国大地上
+微博篮球之夜919见
+吴谨言肚子
+大山女孩以为400分能报考清华
+台风普拉桑登陆浙江
+开学季好书推荐
+田曦薇演普女 说服力
+央视起底网络乱象
+微信回应安卓何时能发live图
+00后小伙打破外国金牌垄断
+娟子被抓
+3岁幼童遭狗撕咬拖走数米父亲发声
+家暴男子在离婚法庭上扛起妻子就跑
+乐道L60售价20.69万租电14.99万
+4岁男孩患上皮肤饥饿症
+贾玲李现同框看秀
+袁巴元承认改分手协议日期
+WTT名单
+刘烨儿子在家叫妈出门叫姐
+微信朋友圈支持live图
+黄晓明叶珂恋情时间线
+180斤7XL女孩当汉服模特月入过万
+王子奇刚当上人妻 王星越就出手了
+柳智敏生图
+流水迢迢 戏精夫妇
+合肥4.7级地震余震58次
+饿到什么程度才会开始燃烧脂肪
+阿里云新模型稳居全球开源第一
+田曦薇小雀斑
+Jennie解释室内吸烟道歉的原因
+张凌赫客串过胡夏的那些年
+台风普拉桑将在浙江上海一带再次登陆
+于正再回应吴谨言结婚
+戚薇说没被鲁豫访谈过是不完整的
+男子被同学驾车多次撞击碾压致死
+台湾唯一慰安妇铜像918当天 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hot-search-2024-09-18.html" title="2024-09-18热搜汇总">2024-09-18热搜汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-09-17T16:00:00.000Z" title="发表于 2024-09-18 00:00:00">2024-09-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/">每日热搜汇总</a></span></div><div class="content">微博
+人民军队淬火向前
+合肥地震
+张翰朴敏英9年前的剧播了
+发现最美铁路探寻共和国印记
+石班瑜因心脏骤停去世
+安徽启动一级地震应急服务响应
+降息
+我的篮球记忆
+杭州震感明显
+停止对部分台湾农产品0关税
+合肥震中梁园暂无人员伤亡报告
+教育局通报学生晚上如厕被罚事件
+流水迢迢 一款很疯的产品
+叶珂 钻戒
+侃爷名创优品购物小票遭泄露
+老人捡蜗牛吃身亡2守灵者吃后也死
+当地回应男子持刀与执法人员对峙
+室友电瓶爆燃大三男生全身90%烧伤
+村长李锐没认出森碟亮仔
+凡人歌为了这句话铺垫36集
+周星驰 永远怀念石班瑜先生
+徐州一男子疑积水中触电身亡
+男子挤破身上痘痘住进ICU
+小英 孩子
+南京震感
+合肥4.7级地震
+挣102万外卖员出车祸朋友发声
+合肥地震超12万人收到地震预警
+偶遇黄多多纽约吃火锅
+2万买的金镯子清洗时被告知是假货
+合肥地震最新情况
+王一博自己就能把经取了
+小杨哥曾晒单买20盒美心月饼
+以色列在5000台寻呼机内安装炸药
+郯庐地震带
+台风普拉桑马上到
+曾志伟看小杨哥带货美诚月饼表情
+美国用饭圈散播南海属于菲律宾
+三只羊别再玩文字游戏了
+直击合肥地震震中
+合肥地震带
+王暖暖不打算公布孩 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hot-search-2024-09-17.html" title="2024-09-17热搜汇总">2024-09-17热搜汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-09-16T16:00:00.000Z" title="发表于 2024-09-17 00:00:00">2024-09-17</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/">每日热搜汇总</a></span></div><div class="content">微博
+文脉华章
+孕妇泰国坠崖案当事人官宣生子
+研究生数量超本科生高校招生引争议
+文化中国行看中秋之美
+金秋补贴风暴
+三只羊停播
+月亮
+三只羊或被罚营业额5倍吊销营业执照
+直播中国节
+大闸蟹今年为啥卖不动了
+央视镜头下的金晨
+折腰
+关晓彤新中式镂空旗袍
+潘展乐周杰伦合照
+70万买侄女一套房她反悔了怎么办
+汪苏泷演唱会万人乐在一起
+中秋
+借了70万给好同事结果被骗了
+记者实探三只羊集团
+徐嘉余喊话王楚钦吃月饼
+唐嫣李现 养眼
+蔡徐坤发月亮照片
+孙怡中秋和粉丝话家常
+周也肩膀 蟑螂
+山东男孩小区门口殴打母亲被民警带走
+小杨哥评论区被立案调查刷屏
+iOS18 丑
+陈乔恩托乔任梁父母给乔任梁送花
+谁看了吴磊的月饼都得愣一下
+小杨哥已近一个月未更新视频
+鹿晗 微博音乐盛典
+力丸锁骨吻痕
+李宇春唱了一首给妈妈的歌
+张踩铃谈无法和解的女性伤害
+三只羊给员工发美诚月饼
+iPad终于有计算器了
+唐嫣宋慧乔秀场同框
+道枝骏佑 镖人
+时代少年团直播
+谢娜女儿做的月饼
+iOS18 手电筒
+苹果变安卓
+翁青雅终于为彭高转身了
+长发万茜也太美了
+孙颖莎搭档王艺迪出战女双
+贾跃亭晒与三个孩子团聚视频
+女演员空中表演嫦 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hot-search-2024-09-16.html" title="2024-09-16热搜汇总">2024-09-16热搜汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-09-15T16:00:00.000Z" title="发表于 2024-09-16 00:00:00">2024-09-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/">每日热搜汇总</a></span></div><div class="content">微博
+中秋佳节习近平总书记这样寄语
+罗志祥在哪做的医美
+学生没填不回家信息表被宿管深夜驱赶
+致敬台风中的守护者
+金价猛涨有人套现40多万
+妈妈在50多岁才摘掉节育环
+吴艳妮全锦赛夺冠
+限时登月过中秋
+吴谨言官宣后首发博
+贝碧嘉几乎是以巅峰强度登陆
+三只羊所售茅台已有72瓶不符合正品特征
+周深长城脚下唱浮光
+章若楠代言评论区
+这主持圈算是让宋轶闯进去了
+边伯贤室内吸烟
+贝碧嘉移入江苏
+女子吃了冰箱一盘熟牛肉引发败血症
+于适 节目单
+鞠婧祎 嫦娥
+上海官方辟谣台风相关谣言
+台风贝碧嘉
+小米回应南京南站附近SU7着火
+为什么带了手套还是满手油
+边伯贤为在澳门室内吸烟道歉
+月经变少是卵巢早衰吗
+没有目的性的恋爱
+薛之谦 Joker
+在青岛追星真的不亚于首尔
+青岛方特偶遇丁程鑫
+敖瑞鹏张予曦妈生漫改脸
+徐卓一110米栏夺冠
+学校回应学生没填信息表被宿管驱赶
+高压电线因台风坠落致两快递员被电
+陈丽君和陈丽君好配啊
+台风普拉桑
+刘涛张赫煊新歌缺部古装剧
+直击贝碧嘉过境江苏
+央视曝光房屋托管骗局
+台风贝碧嘉即将抵达南京
+台风中心将在南京停留2到3小时
+南京台风
+广东阿叔每天喝骨头汤险致瘫痪
+藏海花的大 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hot-search-2024-09-15.html" title="2024-09-15热搜汇总">2024-09-15热搜汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-09-14T16:00:00.000Z" title="发表于 2024-09-15 00:00:00">2024-09-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/">每日热搜汇总</a></span></div><div class="content">微博
+三次座谈会总书记情系母亲河
+于适工作室发声明
+孙颖莎冠军
+中国铁路营业里程超16万公里
+京东服饰闪耀伦敦时装周
+张凌赫边吻边十指紧扣
+贝碧嘉或以强台风级登陆浙江上海一带
+贝碧嘉
+警方辟谣5人涉嫌杀害官员及家属
+于适 张雨绮
+吴谨言竟然不吃猪肉
+林诗栋男单冠军
+AG夏季赛夺冠
+男子用筋膜枪按摩眼睛视力仅余0.1
+于正压王鹤棣大奉打更人大爆
+台风
+香港小姐
+孙颖莎说回家过中秋喽
+徐少强去世
+台风普拉桑生成
+赵小童直播
+台风天非必要不外出
+中央气象台台风红色预警发布
+妻子为徐少强办后事时心脏病发离世
+kimi15岁了
+为什么鸭子不惧怕台风
+周深身上好多针
+你的善良里藏着你的福气
+上海地铁多条线路16日全线停运
+终于有古装剧的公主抱不是转圈了
+那隽李晓悦分手
+周澄奥 已婚有娃
+鹭卓直播
+女子轻断食一天吃11个玉米
+AG对战KSG
+易烊千玺熟了
+英国偶遇那英
+林诗栋说自己不年轻了
+Cat直播
+断供房贷被冷处理
+王俊凯演技
+一诺下一个五年还想留在赛场
+贝碧嘉或成75年来入沪最强台风
+上海启动台风一级应急响应
+JDE周季军
+百万粉丝网红小小努力生活被抓
+孙颖莎vs王艺迪
+张绍刚与十个勤天成员聚 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/php-images-compress-class.html" title="PHP图片压缩类,超低耗损,极大的保持清晰度">PHP图片压缩类,超低耗损,极大的保持清晰度</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-09-13T16:00:00.000Z" title="发表于 2024-09-14 00:00:00">2024-09-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/blog/">blog</a></span></div><div class="content">php 语言编写的图片压缩程序，可以在上传图片时进行压缩，适用于生成缩略图等场景，代码如下：
+123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114&lt;?php/** * 图片压缩类：通过缩放来压缩。如果要保持源图比例，把参数$percent保持为1即可。 * 即使原比例压缩，也可大幅度缩小。数码相机4M图片。也可以缩为700KB左右。如果缩小比例，则体积会更小。 * 结果：可保存、可直接显示。 */class imgcompress&#123;       private $src;       private $image;       private $imageinf ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hot-search-2024-09-14.html" title="2024-09-14热搜汇总">2024-09-14热搜汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-09-13T16:00:00.000Z" title="发表于 2024-09-14 00:00:00">2024-09-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/">每日热搜汇总</a></span></div><div class="content">微博
+庆祝全国人民代表大会成立70周年大会
+王楚钦vs林诗栋
+林诗栋4比1王楚钦
+文化中国行中秋赏灯会
+盲人看月亮
+王楚钦玩新发球
+孙颖莎vs张本美和
+女主被男主捅了
+中秋夜 喝习酒
+李纯小区物业称不可能先救明星
+吴谨言领证后首现身
+王楚钦无缘决赛
+男子提供有偿代骂每单收费240元
+林诗栋说没想到能赢下来
+不敢相信这是陈卓璇
+台风
+四川江油失联姐弟均已遇难
+你好星期六下期院人来了
+老板买到15盒香港月饼哭诉不发了
+于正说洪尧片酬不买房够花
+鹭卓巡演疑似被叫停
+中秋是仅次于春节的传统节日
+流水迢迢原著
+家长群内连发不雅视频撕另一家长
+于正晒出和吴谨言聊天记录
+徐正溪回归娱乐圈的原因
+离婚了也要争婆婆的抚养权
+王源让敖子逸给粉丝转50
+台风贝碧嘉
+赵丽颖把伞撑给了陶昕然
+流水迢迢
+幼儿园长4年关8所学校负债2000万
+林诗栋反手
+许昕直播
+王俊凯强制要求影院给粉丝退钱
+疯狂小杨哥未如期开播
+谢美蓝终于离婚了
+欧阳妮妮晒孕肚
+余宇涵发小作文
+晋江称机房网络运营商线路故障
+韩剧妈妈朋友的儿子
+许昕说又没退役为啥是复出
+孙颖莎进入决赛
+白宇 快成表演赛了都别太当真
+妈妈带2个孩子喝农药自杀被判刑 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/hot-search-2024-09-13.html" title="2024-09-13热搜汇总">2024-09-13热搜汇总</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-09-12T16:00:00.000Z" title="发表于 2024-09-13 00:00:00">2024-09-13</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/">每日热搜汇总</a></span></div><div class="content">微博
+习近平签署国家主席令
+延迟退休年龄对照表
+乘务员手臂有纹身官方将追责
+淬火强军新征程
+蒙牛祝要强的你事事圆满
+陆虎陈曌旭婚礼好多熟人
+逐步延至男63女55或58周岁退休
+00后为何愿意为医院月饼买单
+周生生品牌大使佟大为关悦
+张远收到了捧花
+iPhone16ProMax秒没
+人怎么能有种成金珉奎这样
+细数普华永道5大失责
+奎八
+吴谨言 怀孕
+陆虎婚礼上的白鹿
+女子在超市捞鱼被刺致八级伤残
+李多海在上海定居
+杀妻欲藏尸冰柜案凶手至死没道歉
+野孩子票房
+鲁豫真的拼了克服恐高攀岩12米
+王楚钦说对阵林诗栋自己处下风
+儿子务工身亡儿媳独占近百万赔偿金
+吴谨言洪尧结婚
+陆虎发了婚礼照
+杨幂压轴
+多方回应学生不订牛奶须提供过敏证明
+王楚钦vs赵大成
+奶奶忘拔车钥匙5岁孙女启动致伤亡
+金珉奎背徐明浩
+陈楚生 证婚人
+珉佑
+男子收60万儿子死亡赔偿款全转给弟弟
+张百乔你真是出息了
+阿朵陈好相似度
+渐进式延迟法定退休年龄明年起施行
+睡前5个习惯容易胖肚子
+把1岁儿子锁家里单亲妈妈发声
+杨幂这套好美
+孙颖莎说赛前觉得不好打
+丁程鑫在青岛早睡早起
+如何自愿选择弹性提前退休
+iPhone16 抢购
+警方 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/2/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/#content-inner">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/#content-inner">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/#content-inner">9</a><a class="extend next" rel="next" href="/page/4/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/hot-search-2024-10-11.html" title="2024-10-11热搜汇总">2024-10-11热搜汇总</a><time datetime="2024-10-10T16:00:00.000Z" title="发表于 2024-10-11 00:00:00">2024-10-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/hot-search-2024-10-10.html" title="2024-10-10热搜汇总">2024-10-10热搜汇总</a><time datetime="2024-10-09T16:00:00.000Z" title="发表于 2024-10-10 00:00:00">2024-10-10</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/hot-search-2024-10-09.html" title="2024-10-09热搜汇总">2024-10-09热搜汇总</a><time datetime="2024-10-08T16:00:00.000Z" title="发表于 2024-10-09 00:00:00">2024-10-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/hot-search-2024-10-08.html" title="2024-10-08热搜汇总">2024-10-08热搜汇总</a><time datetime="2024-10-07T16:00:00.000Z" title="发表于 2024-10-08 00:00:00">2024-10-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/hot-search-2024-10-07.html" title="2024-10-07热搜汇总">2024-10-07热搜汇总</a><time datetime="2024-10-06T16:00:00.000Z" title="发表于 2024-10-07 00:00:00">2024-10-07</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/blog/"><span class="card-category-list-name">blog</span><span class="card-category-list-count">7</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%AF%8F%E6%97%A5%E7%83%AD%E6%90%9C%E6%B1%87%E6%80%BB/"><span class="card-category-list-name">每日热搜汇总</span><span class="card-category-list-count">79</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%84%E4%BB%8A%E5%A4%A9%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">历史上的今天热搜</a> <a href="/tags/%E5%BE%AE%E5%8D%9A%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">微博热搜</a> <a href="/tags/%E6%96%B0%E6%B5%AA%E4%BD%93%E8%82%B2%E6%96%B0%E9%97%BB%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">新浪体育新闻热搜</a> <a href="/tags/%E8%B5%B7%E7%82%B9%E4%B8%AD%E6%96%87%E7%BD%91%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">起点中文网热搜</a> <a href="/tags/%E5%8C%97%E5%A4%A7%E6%9C%AA%E5%90%8D%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">北大未名热搜</a> <a href="/tags/inNeed%E7%A4%BE%E5%8C%BA%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">inNeed社区热搜</a> <a href="/tags/%E7%85%8E%E8%9B%8B%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">煎蛋热搜</a> <a href="/tags/%E7%BA%B5%E6%A8%AA%E4%B8%AD%E6%96%87%E7%BD%91%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">纵横中文网热搜</a> <a href="/tags/%E6%B8%B8%E7%A0%94%E7%A4%BE%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">游研社热搜</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">微信热搜</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/" style="font-size: 1.1em; color: #999">数据备份</a> <a href="/tags/%E6%98%93%E8%BD%A6%E7%BD%91%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">易车网热搜</a> <a href="/tags/FTP/" style="font-size: 1.1em; color: #999">FTP</a> <a href="/tags/%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">百度贴吧热搜</a> <a href="/tags/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98/" style="font-size: 1.1em; color: #999">微信支付</a> <a href="/tags/%E7%99%BE%E5%BA%A6%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">百度热搜</a> <a href="/tags/AppSo%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">AppSo热搜</a> <a href="/tags/%E6%B7%98%E5%AE%9D%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">淘宝热搜</a> <a href="/tags/IT%E4%B9%8B%E5%AE%B6%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">IT之家热搜</a> <a href="/tags/%E5%BD%93%E5%BD%93%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">当当热搜</a> <a href="/tags/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">知乎日报热搜</a> <a href="/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/" style="font-size: 1.1em; color: #999">并发编程</a> <a href="/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7/" style="font-size: 1.1em; color: #999">编程技巧</a> <a href="/tags/%E6%97%B6%E9%97%B4%E5%A4%84%E7%90%86/" style="font-size: 1.1em; color: #999">时间处理</a> <a href="/tags/%E5%8E%A6%E9%97%A8%E5%B0%8F%E9%B1%BC%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">厦门小鱼热搜</a> <a href="/tags/%E6%87%82%E7%90%83%E5%B8%9D%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">懂球帝热搜</a> <a href="/tags/%E6%B0%B4%E6%9C%A8%E7%A4%BE%E5%8C%BA%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">水木社区热搜</a> <a href="/tags/%E7%88%B1%E8%8C%83%E5%84%BF%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">爱范儿热搜</a> <a href="/tags/%E8%B4%A2%E6%96%B0%E7%BD%91%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">财新网热搜</a> <a href="/tags/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/" style="font-size: 1.1em; color: #999">磁盘空间管理</a> <a href="/tags/%E7%AB%99%E9%85%B7%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">站酷热搜</a> <a href="/tags/%E4%BA%BA%E4%BA%BA%E9%83%BD%E6%98%AF%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">人人都是产品经理热搜</a> <a href="/tags/36%E6%B0%AA%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">36氪热搜</a> <a href="/tags/%E5%8C%97%E9%82%AE%E4%BA%BA%E8%AE%BA%E5%9D%9B%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">北邮人论坛热搜</a> <a href="/tags/%E7%9F%A5%E4%B9%8E%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">知乎热搜</a> <a href="/tags/%E5%B0%91%E6%95%B0%E6%B4%BE%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">少数派热搜</a> <a href="/tags/Syslog/" style="font-size: 1.1em; color: #999">Syslog</a> <a href="/tags/%E5%BC%80%E7%9C%BC%E8%A7%86%E9%A2%91%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">开眼视频热搜</a> <a href="/tags/%E6%87%82%E8%BD%A6%E5%B8%9D%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">懂车帝热搜</a> <a href="/tags/%E5%BC%80%E5%8F%91%E8%80%85%E5%A4%B4%E6%9D%A1%E7%83%AD%E6%90%9C/" style="font-size: 1.5em; color: #99a9bf">开发者头条热搜</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/10/"><span class="card-archive-list-date">十月 2024</span><span class="card-archive-list-count">11</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/09/"><span class="card-archive-list-date">九月 2024</span><span class="card-archive-list-count">31</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/08/"><span class="card-archive-list-date">八月 2024</span><span class="card-archive-list-count">37</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/07/"><span class="card-archive-list-date">七月 2024</span><span class="card-archive-list-count">7</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">86</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-10-10T20:17:51.804Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 By jszsl</div><div class="footer_custom_text"><a href="/sitemap.xml" target="_blank">站点地图</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.33/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
